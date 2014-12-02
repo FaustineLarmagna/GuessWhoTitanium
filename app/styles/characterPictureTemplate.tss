@@ -1,0 +1,5 @@
+
+"#characterPicture" : {
+    width : Alloy.Globals.characterWidth,
+    height : Alloy.Globals.characterWidth,
+}

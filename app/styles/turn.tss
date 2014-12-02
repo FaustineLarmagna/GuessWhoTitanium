@@ -1,0 +1,42 @@
+"#turn": {
+	backgroundColor: "white",
+	layout: 'vertical'
+}
+
+"#playerPlaying": {
+	top: 0,
+	left: 0,
+	font: {
+		fontFamily:"ABeeZee-Regular",
+		fontSize: '20dp',
+		fontStyle: 'normal',
+		fontWeight: 'regular'
+	},
+	color:"#4A4A4A",
+}
+
+"#askQuestion": {
+	title: "Ask a question",
+    top: 200,
+    right: 180, left: 180,
+	font: {
+    	fontFamily:"ABeeZee-Regular",
+		fontSize:"20dp",
+        fontWeight: 'normal'
+	},
+	color: "white",
+	backgroundColor:"darkgray"
+}
+
+"#pickCharacter": {
+	title: "Pick a character",
+    top: 200,
+    right: 180, left: 180,
+	font: {
+    	fontFamily:"ABeeZee-Regular",
+		fontSize:"20dp",
+        fontWeight: 'normal'
+	},
+	color: "white",
+	backgroundColor:"darkgray"
+}

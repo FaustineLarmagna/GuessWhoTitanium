@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="question">
+		<Label id="playerPlaying" />
+		<Button id="back" />
+        <ListView id="questions">
+        	<ListSection id="optionsSection" />
+        	<ListSection id="questionsSection" />
+        </ListView>
+	</Window>
+</Alloy>

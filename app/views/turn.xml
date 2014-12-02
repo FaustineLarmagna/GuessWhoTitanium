@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="turn">
+		<Label id="playerPlaying" />
+	    <Button id="askQuestion" />
+	    <Button id="pickCharacter" />
+    </Window>
+</Alloy>

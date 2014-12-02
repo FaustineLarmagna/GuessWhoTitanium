@@ -1,0 +1,66 @@
+"#win" : {
+    backgroundColor: "white",
+}
+
+"#winner" : {
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    top: 60,
+    font: {
+    	fontFamily:"coolvetica-rg",
+        fontSize: '32dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    },
+    color:"black"
+}
+
+"#player1pic" : {
+	top: 400,
+	left: 100,
+	width: "100dp"
+}
+
+"#player2pic" : {
+	top: 400,
+	left: 400,
+	width: "100dp"
+}
+
+"#player1" : {
+	top: 600,
+	left: 145,
+	width: "100dp",
+    font: {
+    	fontFamily:"coolvetica-rg",
+        fontSize: '18dp',
+        fontStyle: 'normal',
+        fontWeight: 'regular'
+    },
+    color:"black"
+}
+
+"#player2" : {
+	top: 600,
+	left: 445,
+	width: "100dp",
+    font: {
+    	fontFamily:"coolvetica-rg",
+        fontSize: '18dp',
+        fontStyle: 'normal',
+        fontWeight: 'regular'
+    },
+    color:"black"
+}
+
+"#quit": {
+    title: "Quit game",
+    bottom: 40,
+    right: 200, left: 200,
+    font: {
+        fontFamily:"ABeeZee-Regular",
+        fontSize:"16dp",
+        fontWeight: 'normal'
+    },
+    color: "white",
+    backgroundColor:"darkgray"
+}

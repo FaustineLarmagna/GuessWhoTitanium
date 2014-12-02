@@ -1,0 +1,28 @@
+"#win" : {
+    backgroundColor: "white",
+}
+
+"#responseLabel" : {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	top: 150,
+	font: {
+		fontFamily:"coolvetica-rg",
+		fontSize: '32dp',
+		fontStyle: 'normal',
+		fontWeight: 'bold'
+	},
+	color:"black"
+}
+
+"#nextTurnButton" : {
+	title: "Next turn",
+	top: 450,
+    right: 180, left: 180,
+	font: {
+    	fontFamily:"ABeeZee-Regular",
+		fontSize:"20dp",
+        fontWeight: 'normal'
+	},
+	color: "white",
+	backgroundColor:"darkgray"
+}

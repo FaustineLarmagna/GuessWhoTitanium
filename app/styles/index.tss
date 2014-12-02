@@ -1,0 +1,37 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"#newGameButton": {
+    title: 'New Game',
+    top: 400,
+    right: 180, left: 180,
+	font: {
+    	fontFamily:"ABeeZee-Regular",
+		fontSize:"20dp",
+        fontWeight: 'normal'
+	},
+	color: "white",
+	backgroundColor:"darkgray"
+}
+
+"#title": {
+    top: 60,
+    font: {
+    	fontFamily:"coolvetica-rg",
+        fontSize: '32dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+    },
+    color:"black"
+}
+
+"#underTitle": {
+	top: 95,
+	right: 120,
+	font: {
+    	fontFamily:"ABeeZee-Italic",
+		fontSize:"14dp",
+        fontWeight: 'normal'
+	}
+}

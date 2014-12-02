@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win">
+		<Label id="winner" />
+		<ImageView id="player1pic" />
+		<ImageView id="player2pic" />
+		<Label id="player1">Player1</Label>
+		<Label id="player2">Player2</Label>
+		<Button id="quit" />
+	</Window>
+</Alloy>

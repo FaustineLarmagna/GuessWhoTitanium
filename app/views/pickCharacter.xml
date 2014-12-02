@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="pick">
+		<Label id="playerPlaying" />
+		<Button id="back" />
+	    <ScrollView id="characters" />
+	</Window>
+</Alloy>

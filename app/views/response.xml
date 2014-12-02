@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win">
+		<Label id="responseLabel" />
+	    <Button id="nextTurnButton" />
+	</Window>
+</Alloy>

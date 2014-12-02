@@ -1,0 +1,20 @@
+"#choose": {
+	backgroundColor: "white",
+	layout: 'vertical'
+}
+
+"#playerChoosing": {
+    top: 0,
+    left: 0,
+    font: {
+    	fontFamily:"ABeeZee-Regular",
+        fontSize: '20dp',
+        fontStyle: 'normal',
+        fontWeight: 'regular'
+    },
+    color:"#4A4A4A"
+}
+
+"#characters": {
+	top: 50
+}

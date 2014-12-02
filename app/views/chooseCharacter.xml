@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="choose">
+        <Label id="playerChoosing" />
+        <ScrollView id="characters" />
+    </Window>
+</Alloy>

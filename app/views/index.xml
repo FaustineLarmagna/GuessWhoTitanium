@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+        <Label id="title">GuessWho</Label><Label id="underTitle"> - geek</Label>
+	    <Button id="newGameButton" />
+	</Window>
+</Alloy>
