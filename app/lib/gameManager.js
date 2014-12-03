@@ -8,12 +8,12 @@ exports.checkBoard = function(board) {
 			charactersRemaining.push(character);
 		}
 	});
-	console.log(charactersRemaining.length);
 
 	if (charactersRemaining.length == 1) {
-		//STOP THE GAME
+		// Stop the game if there is just one character left
 		return true;
 	} else {
+		// Other player's turn if there is more than one character left in board
 		return false;
 	}
 };

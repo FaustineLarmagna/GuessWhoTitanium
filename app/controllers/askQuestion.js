@@ -69,17 +69,12 @@ $.questions.addEventListener('itemclick', function(e) {
 		}
 
 		if (characterProperty.indexOf(item.properties.title) == -1) {
-			// console.log("Too bad : character has not "+item.properties.title+" "+item.properties.category);
 			var sentence = "Too bad : character has not "+item.properties.title+" "+item.properties.category;
 			var response = false;
 		} else {
-			// console.log("Good job : character has "+item.properties.title+" "+item.properties.category);
 			var sentence = "Good job : character has "+item.properties.title+" "+item.properties.category;
 			var response = true;
 		}
-
-		// console.log(property);
-		// console.log(item.properties.title);
 
 		gameManager.boardSpliceCharacter(args.board, property, item.properties.title, response);
 		var check = gameManager.checkBoard(args.board);
@@ -93,6 +88,3 @@ $.questions.addEventListener('itemclick', function(e) {
 		}).getView().open();
 	}
 });
-
-gameManager.checkBoard(Alloy.Globals.board1);
-gameManager.checkBoard(Alloy.Globals.board2);

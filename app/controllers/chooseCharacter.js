@@ -26,7 +26,6 @@ $.characters.addEventListener('click', function(e) {
 		Alloy.createController('turn', {
 			player: "Player1",
 		}).getView().open();
-		// console.log(Alloy.Globals.players);
 	} else {
 		console.log('What are u doing here ?');
 	}
