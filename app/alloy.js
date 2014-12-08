@@ -11,8 +11,10 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 
+// Setting character picture width for the mosaic
 Alloy.Globals.characterWidth = Ti.Platform.displayCaps.platformWidth / 4;
 
+// using the Initialization lib to reset game
 var initialization = require('initialization');
 
 initialization.initializeGame();

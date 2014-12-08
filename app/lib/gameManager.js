@@ -4,6 +4,7 @@
 exports.checkBoard = function(board) {
 	var charactersRemaining = [];
 	_.each(board, function(character) {
+		// Is this an empty object ?
 		if (Object.keys(character).length != 0) {
 			charactersRemaining.push(character);
 		}

@@ -1,3 +1,4 @@
+// Function that returns an array of every characters available in this game
 var getCharacters = function() {
 	var characters = [
 		{
@@ -265,8 +266,10 @@ var getCharacters = function() {
 	return characters;
 };
 
+// Global containing list of characters
 Alloy.Globals.characters = getCharacters();
 
+// Global containing list of questions and their options
 Alloy.Globals.questions = [
 	{
 		name: "skin",
@@ -306,8 +309,9 @@ Alloy.Globals.questions = [
 	},
 ];
 
-// Sets player1 and player2 to null
+// Sets player1 and player2 characters to null
 // Sets player1 and player2's boards to initial state (with all characters)
+// Game is now ready to start
 exports.initializeGame = function() {
 	Alloy.Globals.players = { player1: "", player2: ""};
 
