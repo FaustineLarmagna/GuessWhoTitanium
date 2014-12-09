@@ -41,6 +41,8 @@ $.characters.addEventListener('click', function(e) {
 		Alloy.createController('endGame', {
 			winner: args.player
 		}).getView().open();
+	} else if (Object.keys(e.source.character).length === 0) {
+		return;		// don't do anything if player clicked on blank space
 	} else {
 		// if current player clicked the wrong character then the character
 		// he clicked is just removed from his board 
