@@ -38,6 +38,10 @@ $.characters.addEventListener('click', function(e) {
 			player: "Player1",
 		}).getView().open();
 	} else {
-		console.log('What are u doing here ?');
+		// this case should never actually happen
+		// if it did, something went very wrong and it is better to
+		// shut down the app
+		var activity = Titanium.Android.currentActivity;
+		activity.finish();
 	}
 });
